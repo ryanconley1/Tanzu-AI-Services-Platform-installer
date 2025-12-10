@@ -49,7 +49,7 @@ For a much more comprehensive automated install of Tanzu Platform, which uses [C
 - [OM CLI](https://github.com/pivotal-cf/om) installed
 - Following files downloaded...
   - [Foundation Core (Tanzu Operations Manager)](https://support.broadcom.com/group/ecx/productdownloads?subfamily=Foundation%20Core%20for%20VMware%20Tanzu%20Platform)
-  - [Small Footprint Elastic Application Runtime (Tanzu Platform for Cloud Foundry)](https://support.broadcom.com/group/ecx/productdownloads?subfamily=Elastic%20Application%20Runtime%20for%20VMware%20Tanzu%20Platform)
+  - [Small Footprint Elastic Application Runtime (Tanzu Platform)](https://support.broadcom.com/group/ecx/productdownloads?subfamily=Elastic%20Application%20Runtime%20for%20VMware%20Tanzu%20Platform)
   - [Postgres](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware%20Tanzu%20for%20Postgres%20on%20Tanzu%20Platform)
   - [AI Services (GenAI) ](https://support.broadcom.com/group/ecx/productdownloads?subfamily=AI%20Services%20for%20VMware%20Tanzu%20Platform)
   - [Tanzu Hub](https://support.broadcom.com/group/ecx/productdownloads?subfamily=Tanzu%20Hub) (optional)
@@ -59,7 +59,7 @@ For a much more comprehensive automated install of Tanzu Platform, which uses [C
 ## Fill out required fields in the script
 Update each instance of "FILL-ME-IN" in the script. See below for a worked example...
 
-Update the path to the VMware Tanzu Operations Manager (OpsMan) OVA, Tanzu Platform for Cloud Foundry (TPCF) tile, Postgres tile, GenAI tile, and OM CLI
+Update the path to the VMware Tanzu Operations Manager (OpsMan) OVA, Tanzu Platform (CF) tile, Postgres tile, AI Services tile, and OM CLI
 ```bash
 ### Full Path to Tanzu Operations Manager OVA, TPCF tile, Postgres tile, GenAI tile, and OM CLI
 $OpsManOVA    = "/Users/Tanzu/Downloads/ops-manager-vsphere-3.2.1.ova"
@@ -381,7 +381,7 @@ Congratulations, you have come to the end of this quick start guide. We have bar
 
 ## Documentation
 - [Foundation Core (Tanzu Operations Manager)](https://techdocs.broadcom.com/us/en/vmware-tanzu/platform/tanzu-operations-manager/3-2/tanzu-ops-manager/index.html)
-- [Elastic Application Runtime (Tanzu Platform for Cloud Foundry)](https://techdocs.broadcom.com/us/en/vmware-tanzu/platform/elastic-application-runtime/10-3/eart/concepts-overview.html)
+- [Elastic Application Runtime (Tanzu Platform)](https://techdocs.broadcom.com/us/en/vmware-tanzu/platform/elastic-application-runtime/10-3/eart/concepts-overview.html)
 - [Postgres](https://techdocs.broadcom.com/us/en/vmware-tanzu/data-solutions/tanzu-for-postgres-on-cloud-foundry/10-1/postgres/index.html)
 - [AI Services](https://techdocs.broadcom.com/us/en/vmware-tanzu/platform/ai-services/10-3/ai/index.html)
 - [Tanzu Hub](https://techdocs.broadcom.com/us/en/vmware-tanzu/platform/tanzu-hub/10-3/tnz-hub/index.html)
@@ -420,7 +420,7 @@ Below are the pre-checks the script performs...
 
 - Files
   - Foundation Core (Tanzu Operations Manager) OVA exists
-  - Elastic Application Runtime (Tanzu Platform for Cloud Foundry) tile exists
+  - Elastic Application Runtime (Tanzu Platform) tile exists
   - Postgres tile exists
   - AI Services tile exists
   - Tanzu Hub tile exists
@@ -461,7 +461,7 @@ Below are the pre-checks the script performs...
 - Platform
   - Foundation Core (Tanzu Operations Manager) is not already installed
   - BOSH Director is not already installed
-  - Elastic Application Runtime (Tanzu Platform for Cloud Foundry) is not already installed
+  - Elastic Application Runtime (Tanzu Platform) is not already installed
   - Postgres is not already installed
   - AI Service is not already installed
   - Tanzu Platform license key is in valid format
@@ -474,7 +474,7 @@ Below are the pre-checks the script performs...
 ## Validation
 The script was validated against the following versions...
 - **Foundation Core (Tanzu Operations Manager):** ops-manager-vsphere-3.2.1.ova
-- **Small Footprint Elastic Application Runtime (Tanzu Platform for Cloud Foundry):** srt-10.3.1-build.2.pivotal
+- **Small Footprint Elastic Application Runtime (Tanzu Platform):** srt-10.3.1-build.2.pivotal
 - **Postgres:** postgres-10.2.1.pivotal
 - **AI Services:** genai-10.3.1.pivotal
 - **Tanzu Hub:** tanzu-hub-10.3.1.pivotal
