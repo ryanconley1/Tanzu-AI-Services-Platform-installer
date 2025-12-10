@@ -487,3 +487,6 @@ The script was validated against the following versions...
 
 ## Credits
 Shoutout to [William Lam](https://williamlam.com/) as used his Nested PKS script from 2018 as inspiration for this script.
+
+## Disclaimer
+“This repository is an unofficial project provided “as is.” It is not supported or endorsed by any organization, and no warranty or guarantee of functionality is provided. Use at your own discretion.”
